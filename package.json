@@ -1,0 +1,23 @@
+{
+  "name": "tivix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e:cucumber": "cypress run --project e2e-cucumber",
+    "e2e:cucumber:ci": "cypress run --project e2e-cucumber --reporter junit  --reporter-options \"mochaFile=reports/junit.xml\"",
+    "cy:debug": "cypress open --project e2e-cucumber"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "cypress": "^10.8.0",
+    "typescript": "^4.8.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Jan",
+    "tooLongName": "This is a name with more than fifty digits and let's see what happens",
+    "lastName": "Testowy",
+    "tooLongLastName": "This is the last name with more than fifty digits and let's see what happens",
+    "email": "jantestowy@totylkotest.com",
+    "wrongEmail": "emailgmail.com",
+    "wrongCardNumber": "card number",
+    "tooLongCardNumber": "cardnumbercreatedfromletters",
+    "correctCardNumber": "1234432100005252"
+
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true,
+      "stepDefinitions": [
+        "steps/**/*.{js,ts}"
+      ],
+      "json": {
+        "enabled": false,
+        "output": "reports/cucumber-report.json"
+      }
+    }
+  }
